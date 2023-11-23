@@ -53,14 +53,14 @@ for i  in range(1, len(data)):
         course = ""
         continue
       course += j
-   if(data[i][5] == 'x1'):
+   if(data[i][5] == 'X1'):
       pref.append(ug_cdc) 
       pref.append(ug_electives)
       pref.append(hd_cdc)
       pref.append(hd_electives)
       prof = x1(data[i][0], pref)
       profs.append(prof)
-   elif(data[i][5] == 'x2'):
+   elif(data[i][5] == 'X2'):
       pref.append(ug_cdc) 
       pref.append(ug_electives)
       pref.append(hd_cdc)
@@ -74,5 +74,3 @@ for i  in range(1, len(data)):
       pref.append(hd_electives)
       prof = x3(data[i][0], pref)
       profs.append(prof)  
-
-      
