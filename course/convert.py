@@ -75,7 +75,4 @@ for i  in range(1, len(data)):
       prof = x3(data[i][0], pref)
       profs.append(prof)  
 
-for i in range(len(profs)):
-   print(profs[i].name, profs[i].pref)  
-
       
