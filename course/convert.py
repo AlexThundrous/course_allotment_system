@@ -7,7 +7,7 @@ from professor.professor import *
 
 
 data = []
-with open('course_pref.csv', mode='r') as file:
+with open('course_pref1.csv', mode='r') as file:
    csvFile = csv.reader(file)
    for lines in csvFile:
       data.append(lines)
