@@ -38,10 +38,9 @@ for i in range(len(assigned_course)):
         assigned_course[i].append_value(assigned_course[i].value[0])
 
 for i in range(len(assigned_course)):
-    prof = list(assigned_course[i].profs.keys())[0]
     for prof in assigned_course[i].profs:
         for other_prof in assigned_course[i].profs: 
-            if prof != other_prof and prof.value[0] <= 1.5 and other_prof.value[0] <= 1.5:
+            if prof != other_prof and prof.value[0] <= 1.5 and prof.value[0] > 0 and other_prof.value[0] <= 1.5 and other_prof.value[0] > 0:
                 for m in range(len(pos_graph)):
                     if(not prof.get_assigned(m) and not other_prof.get_assigned(m) and not assigned_course[i].get_assigned(m)):
                         assigned_course[i].set_value(1,m)
@@ -57,7 +56,7 @@ for i in range(len(assigned_course)):
                         assigned_course[i].set_value(1,m)
                         other_prof.set_value(1, m)
                         pos_graph[m].add_edge(other_prof, assigned_course[i].name)
-
+                        
 
 print(len(pos_graph))
 for i in range(len(pos_graph)):
