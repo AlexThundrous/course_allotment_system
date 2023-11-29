@@ -81,7 +81,7 @@ for i in range(len(assigned_course)):
                                 elif(not other_prof.get_assigned(m) and (isinstance(other_prof, x2) or isinstance(other_prof, x3))):
                                     assigned_course[i].set_value(1, m)
                                     other_prof.set_value(1, m)
-                                    pos_graph[m].add_edge(prof, assigned_course[i].name)
+                                    pos_graph[m].add_edge(other_prof, assigned_course[i].name)
                         else:
                             G1 = pos_graph[0].copy()
                             edges_to_remove = [(node, course_node) for node, course_node in G1.edges() if course_node == assigned_course[i].name]
