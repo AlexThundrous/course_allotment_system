@@ -62,9 +62,14 @@ for i in range(len(assigned_course)):
     else:
         if assigned_course[i].value[0] == 1:
             first_assignment = True
+
             for prof in assigned_course[i].profs:
                 for other_prof in assigned_course[i].profs: 
                     if prof != other_prof and prof.value[0] <= 1.5 and other_prof.value[0] <= 1.5:
+                        if prof.name == "PROF-1":
+                            pass
+                        elif other_prof.name == "PROF-1":
+                            pass
                         if first_assignment:
                             first_assignment = False
                             for m in range(len(pos_graph)):
@@ -135,16 +140,18 @@ for i in range(len(assigned_course)):
                                         assigned_course[d].append_value(assigned_course[d].value[0])
 
 # Printing the edges
-'''print(len(pos_graph))
+'''
+print(len(pos_graph))
 for i in range(len(pos_graph)):
     sum = 0
     for edge in pos_graph[i].edges():
         sum += 1
-    if(sum == 33):
+    if(sum >=0):
         print("new possibility")
         for edge in pos_graph[i].edges():
             prof, course_node = edge
             if course_node in cdc and prof in profs:
                 print(course_node, prof.name)
 
-print("done")'''
+print("done")
+'''

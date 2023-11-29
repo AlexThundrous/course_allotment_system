@@ -1,12 +1,12 @@
 import convert
 import course
 import cdc_assignment
-from course import *
 import networkx as nx
 import matplotlib.pyplot as plts
 import itertools
 from cdc_assignment import pos_graph
 from professor.professor import *
+from course import *
 
 elective = convert.electives
 profs = cdc_assignment.profs
@@ -41,7 +41,7 @@ for i in range(len(assigned_course)):
     for prof in assigned_course[i].profs:
         for other_prof in assigned_course[i].profs: 
             if prof != other_prof and prof.value[0] <= 1.5 and prof.value[0] > 0 and other_prof.value[0] <= 1.5 and other_prof.value[0] > 0:
-                for m in range(len(pos_graph)):
+                for m in range(len(pos_graph)):                  
                     if(not prof.get_assigned(m) and not other_prof.get_assigned(m) and not assigned_course[i].get_assigned(m)):
                         assigned_course[i].set_value(1,m)
                         prof.set_value(0.5, m)
@@ -55,17 +55,17 @@ for i in range(len(assigned_course)):
                     elif(not other_prof.get_assigned(m) and (isinstance(other_prof, x2) or isinstance(other_prof, x3)) and not assigned_course[i].get_assigned(m)):
                         assigned_course[i].set_value(1,m)
                         other_prof.set_value(1, m)
-                        pos_graph[m].add_edge(other_prof, assigned_course[i].name)
-                        
-
-print(len(pos_graph))
+                        pos_graph[m].add_edge(other_prof, assigned_course[i].name)    
+              
 for i in range(len(pos_graph)):
     sum = 0
     for edge in pos_graph[i].edges():
         sum += 1
-    if(sum >=33):
+    if(sum == 28):
         print("new possibility")
         for edge in pos_graph[i].edges():
             prof, course_node = edge
             if course_node in total_course and prof in profs:
                 print(course_node, prof.name)
+                
+print("done")
