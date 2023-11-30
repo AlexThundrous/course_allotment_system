@@ -4,7 +4,6 @@ class Professor(object):
         self.value = [value]
         self.pref = pref
         self.assigned = [assigned]
-        self.assignments = [False]
        
     def set_value(self, x, i):
         self.value[i] -= x
@@ -14,6 +13,10 @@ class Professor(object):
 
     def get_assigned(self, i):
         return self.assigned[i]
+    
+    def remove_value(self, x):
+        self.value.pop(x)
+        self.assigned.pop(x)
     
 class x1(Professor):
     def __init__(self,name,pref):

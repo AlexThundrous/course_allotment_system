@@ -64,7 +64,7 @@ for i in range(len(assigned_course)):
 
             for prof in assigned_course[i].profs:
                 for other_prof in assigned_course[i].profs: 
-                    if prof != other_prof and prof.value[0] <= 1.5 and other_prof.value[0] <= 1.5:
+                    if prof != other_prof and prof.value[0] <= 1.5 and prof.value[0] > 0 and other_prof.value[0] > 0 and other_prof.value[0] <= 1.5:
                         if first_assignment:
                             first_assignment = False
                             for m in range(len(pos_graph)):
@@ -95,7 +95,13 @@ for i in range(len(assigned_course)):
                             for d in range(len(assigned_course)):
                                     for m in assigned_course[d].profs:
                                         if len(prof.value) > len(m.value):
-                                            m.append_value(m.value[0])
+                                            if(m == edges_to_remove[0][0] or m == edges_to_remove[1][0]):
+                                                if(len(edges_to_remove) == 1):
+                                                    m.append_value(m.value[0]+ 1)
+                                                else:
+                                                    m.append_value(m.value[0] + 0.5)
+                                            else:
+                                                m.append_value(m.value[0])
                                     if len(assigned_course[i].value) > len(assigned_course[d].value):
                                         assigned_course[d].append_value(assigned_course[d].value[0])
         elif assigned_course[i].value[0] == 3:
@@ -134,19 +140,52 @@ for i in range(len(assigned_course)):
                                     if len(assigned_course[i].value) > len(assigned_course[d].value):
                                         assigned_course[d].append_value(assigned_course[d].value[0])
 
-# Printing the edges
-'''
-print(len(pos_graph))
+prof_assignments = []
+indices_to_remove = []   
+
 for i in range(len(pos_graph)):
-    sum = 0
-    for edge in pos_graph[i].edges():
-        sum += 1
-    if(sum >=0):
-        print("new possibility")
+    sum_edges = len(pos_graph[i].edges())
+    
+    if sum_edges == len(pos_graph[0].edges()):
+        prof_assignment = {}
+        
+        for prof in profs:
+            prof_assignment[prof] = []
+
         for edge in pos_graph[i].edges():
             prof, course_node = edge
             if course_node in cdc and prof in profs:
-                print(course_node, prof.name)
+                prof_assignment[prof].append(course_node)
 
-print("done")
-'''
+        prof_assignments.append(prof_assignment)
+    else:
+        indices_to_remove.append(i)
+
+for index in reversed(indices_to_remove):
+    pos_graph.pop(index)
+    for assigned_course_instance in assigned_course:
+        assigned_course_instance.remove_value(index)
+    for prof in profs:
+        prof.remove_value(index)
+
+
+for i in range(len(pos_graph)):
+    for node,degree in dict(pos_graph[0].degree).items():
+        if isinstance(node, Professor):
+            if(isinstance(node, x1) and node.value[i] > 0 and degree == 0):
+                node.value[i] = 0
+                node.assigned[i] = True
+            elif(isinstance(node, x2) and node.value[i] > 0 and degree == 1):
+                node.value[i] = 0
+                node.assigned[i] = True
+            elif(isinstance(node, x3) and node.value[i] > 0 and degree == 2):
+                node.value[i] = 0
+                node.assigned[i] = True
+
+with open("prof_cdc_assignments_output.txt", "w") as output_file:
+    for i, prof_assignment in enumerate(prof_assignments):
+        print(f"Graph {i+1} Prof Assignments:", file=output_file)
+        for prof in prof_assignment:
+            print(prof.name, file=output_file)
+            print(prof_assignment[prof], file=output_file)
+            print("\n", file=output_file)

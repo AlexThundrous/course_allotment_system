@@ -17,6 +17,10 @@ class course:
              self.assigned.append(True)
         else:
              self.assigned.append(False)
+    
+    def remove_value(self, x):
+        self.value.pop(x)
+        self.assigned.pop(x)
 
     def get_assigned(self, i):
         return self.assigned[i]

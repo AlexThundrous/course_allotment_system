@@ -12,6 +12,7 @@ profs = cdc_assignment.profs
 assigned_course = []
 total_course = cdc_assignment.total_course
 assigned_course_cdc = cdc_assignment.assigned_course
+crash_test_course = cdc_assignment.crash_test
 
 for i in range(len(elective)):
     profindex = []
@@ -41,28 +42,31 @@ for i in range(len(assigned_course)):
     for prof in assigned_course[i].profs:
         for other_prof in assigned_course[i].profs: 
             if prof != other_prof and prof.value[0] <= 1.5 and prof.value[0] > 0 and other_prof.value[0] <= 1.5 and other_prof.value[0] > 0:
-                for m in range(len(pos_graph)):                  
+                if (prof.name == 'PROF-1'or other_prof.name == 'PROF-1'):
+                    pass
+                for m in range(len(pos_graph)):                
                     if(not prof.get_assigned(m) and not other_prof.get_assigned(m) and not assigned_course[i].get_assigned(m)):
                         assigned_course[i].set_value(1,m)
                         prof.set_value(0.5, m)
                         other_prof.set_value(0.5, m)
                         pos_graph[m].add_edge(prof, assigned_course[i].name)
                         pos_graph[m].add_edge(other_prof, assigned_course[i].name)
-                    elif(not prof.get_assigned(m) and (isinstance(prof, x2) or isinstance(prof, x3)) and not assigned_course[i].get_assigned(m)):
+                    elif(not prof.get_assigned(m) and (isinstance(prof, x2) or isinstance(prof, x3)) and not assigned_course[i].get_assigned(m)) and prof.value[m] >= 1:
                         assigned_course[i].set_value(1,m)
                         prof.set_value(1, m)
                         pos_graph[m].add_edge(prof, assigned_course[i].name)
-                    elif(not other_prof.get_assigned(m) and (isinstance(other_prof, x2) or isinstance(other_prof, x3)) and not assigned_course[i].get_assigned(m)):
+                    elif(not other_prof.get_assigned(m) and (isinstance(other_prof, x2) or isinstance(other_prof, x3)) and not assigned_course[i].get_assigned(m)) and other_prof.value[m] >= 1:
                         assigned_course[i].set_value(1,m)
                         other_prof.set_value(1, m)
                         pos_graph[m].add_edge(other_prof, assigned_course[i].name)  
 
-prof_assignments = []  
-
+prof_assignments = []
+ 
+print(len(pos_graph))
 for i in range(len(pos_graph)):
     sum_edges = len(pos_graph[i].edges())
     
-    if sum_edges == 28:  
+    if sum_edges > 0:
         prof_assignment = {}
         
         for prof in profs:
@@ -83,4 +87,5 @@ with open("prof_assignments_output.txt", "w") as output_file:
             print(prof_assignment[prof], file=output_file)
             print("\n", file=output_file)
 
-print("Prof assignments output has been written to prof_assignments_output.txt")
+print("Prof assignments output has been written to prof_assignments_output.txt \n")
+print(crash_test_course)
