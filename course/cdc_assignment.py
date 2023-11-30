@@ -2,7 +2,6 @@ import convert
 import course
 from course import *
 import networkx as nx
-import matplotlib.pyplot as plt
 import itertools
 from professor.professor import *
 
@@ -44,21 +43,21 @@ for length, courses in grouped_courses.items():
 
 assigned_course = [course for length, courses in sorted(grouped_courses.items()) for course in courses]
 
+crash_test = ""
+
+
 for i in range(len(assigned_course)):
     prof = list(assigned_course[i].profs.keys())[0]
     if len(assigned_course[i].profs) == 1:
-        if prof.value[0] <= 1:
-            for j in range(len(pos_graph)):
-                if(not prof.get_assigned(j) and not assigned_course[i].get_assigned(j)):
-                    assigned_course[i].set_value(prof.value[0], j)
-                    prof.set_value(assigned_course[i].value[0], j)
-                    pos_graph[j].add_edge(prof, assigned_course[i].name)
-        elif prof.value[0] == 1.5:
+        if prof.value[0] >= 1:
             for j in range(len(pos_graph)):
                 if(not prof.get_assigned(j) and not assigned_course[i].get_assigned(j)):
                     assigned_course[i].set_value(1, j)
                     prof.set_value(assigned_course[i].value[0], j)
                     pos_graph[j].add_edge(prof, assigned_course[i].name)
+        elif(isinstance(prof, x1)):
+            crash_test = "Can't assign the cdc insufficient number of profs only being taken by" + prof.name 
+            
     else:
         if assigned_course[i].value[0] == 1:
             first_assignment = True
@@ -66,10 +65,6 @@ for i in range(len(assigned_course)):
             for prof in assigned_course[i].profs:
                 for other_prof in assigned_course[i].profs: 
                     if prof != other_prof and prof.value[0] <= 1.5 and other_prof.value[0] <= 1.5:
-                        if prof.name == "PROF-1":
-                            pass
-                        elif other_prof.name == "PROF-1":
-                            pass
                         if first_assignment:
                             first_assignment = False
                             for m in range(len(pos_graph)):

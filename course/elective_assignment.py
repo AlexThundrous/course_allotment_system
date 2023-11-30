@@ -2,7 +2,6 @@ import convert
 import course
 import cdc_assignment
 import networkx as nx
-import matplotlib.pyplot as plts
 import itertools
 from cdc_assignment import pos_graph
 from professor.professor import *
@@ -37,6 +36,7 @@ for i in range(len(assigned_course)):
     for d in range(len(assigned_course_cdc[0].value)):
         assigned_course[i].append_value(assigned_course[i].value[0])
 
+
 for i in range(len(assigned_course)):
     for prof in assigned_course[i].profs:
         for other_prof in assigned_course[i].profs: 
@@ -55,17 +55,32 @@ for i in range(len(assigned_course)):
                     elif(not other_prof.get_assigned(m) and (isinstance(other_prof, x2) or isinstance(other_prof, x3)) and not assigned_course[i].get_assigned(m)):
                         assigned_course[i].set_value(1,m)
                         other_prof.set_value(1, m)
-                        pos_graph[m].add_edge(other_prof, assigned_course[i].name)    
-              
+                        pos_graph[m].add_edge(other_prof, assigned_course[i].name)  
+
+prof_assignments = []  
+
 for i in range(len(pos_graph)):
-    sum = 0
-    for edge in pos_graph[i].edges():
-        sum += 1
-    if(sum == 28):
-        print("new possibility")
+    sum_edges = len(pos_graph[i].edges())
+    
+    if sum_edges == 28:  
+        prof_assignment = {}
+        
+        for prof in profs:
+            prof_assignment[prof] = []
+
         for edge in pos_graph[i].edges():
             prof, course_node = edge
             if course_node in total_course and prof in profs:
-                print(course_node, prof.name)
-                
-print("done")
+                prof_assignment[prof].append(course_node)
+        
+        prof_assignments.append(prof_assignment)
+
+with open("prof_assignments_output.txt", "w") as output_file:
+    for i, prof_assignment in enumerate(prof_assignments):
+        print(f"Graph {i+1} Prof Assignments:", file=output_file)
+        for prof in prof_assignment:
+            print(prof.name, file=output_file)
+            print(prof_assignment[prof], file=output_file)
+            print("\n", file=output_file)
+
+print("Prof assignments output has been written to prof_assignments_output.txt")
