@@ -1,7 +1,6 @@
 import convert
 import course
 import cdc_assignment
-import networkx as nx
 import itertools
 from cdc_assignment import pos_graph
 from professor.professor import *
@@ -42,7 +41,7 @@ for i in range(len(assigned_course)):
     for prof in assigned_course[i].profs:
         for other_prof in assigned_course[i].profs: 
             if prof != other_prof and prof.value[0] <= 1.5 and prof.value[0] > 0 and other_prof.value[0] <= 1.5 and other_prof.value[0] > 0:
-                if (prof.name == 'PROF-1'or other_prof.name == 'PROF-1'):
+                if (prof.name == 'PROF-14'or other_prof.name == 'PROF-14'):
                     pass
                 for m in range(len(pos_graph)):                
                     if(not prof.get_assigned(m) and not other_prof.get_assigned(m) and not assigned_course[i].get_assigned(m)):
@@ -89,3 +88,4 @@ with open("prof_assignments_output.txt", "w") as output_file:
 
 print("Prof assignments output has been written to prof_assignments_output.txt \n")
 print(crash_test_course)
+

@@ -170,17 +170,16 @@ for index in reversed(indices_to_remove):
 
 
 for i in range(len(pos_graph)):
-    for node,degree in dict(pos_graph[0].degree).items():
+    if ( i == 2 ):
+        pass
+    for node,degree in dict(pos_graph[i].degree).items():
         if isinstance(node, Professor):
-            if(isinstance(node, x1) and node.value[i] > 0 and degree == 0):
+            if(((isinstance(node, x3) and degree == 3) or (isinstance(node, x2) and degree == 2) or (isinstance(node, x1)and degree == 1)) and node.value[i] > 0 ):
                 node.value[i] = 0
                 node.assigned[i] = True
-            elif(isinstance(node, x2) and node.value[i] > 0 and degree == 1):
-                node.value[i] = 0
-                node.assigned[i] = True
-            elif(isinstance(node, x3) and node.value[i] > 0 and degree == 2):
-                node.value[i] = 0
-                node.assigned[i] = True
+            elif(isinstance(node, x2) and node.value[i] == 0 and degree == 0):
+                node.value[i] = 1
+                node.assigned[i] = False
 
 with open("prof_cdc_assignments_output.txt", "w") as output_file:
     for i, prof_assignment in enumerate(prof_assignments):

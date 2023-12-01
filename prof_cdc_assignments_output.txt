@@ -1,1026 +1,2850 @@
 Graph 1 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 2 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G526', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS F351', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 3 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS F351', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G526', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 4 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G526', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS F351', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 5 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G526', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G526', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 6 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS F351', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G526', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 7 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS F351', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G526', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G526', 'CS G513']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 8 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G513', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G513', 'CS G525']
+['CS F214', 'CS F351', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+[]
 
 
 Graph 9 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G513', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G513']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G513', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 10 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G513', 'CS G623']
+['CS F222', 'CS G513', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G513', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 11 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G513', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G513']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G513', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 12 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G513', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G513', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G513']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G513', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 13 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G513', 'CS G623']
+['CS F222', 'CS G513', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G513']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363']
+['CS F214', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 14 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G513', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214']
 
 
 PROF-7
-['CS F364']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G525']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214', 'CS G513', 'CS G623']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 15 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G623', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 16 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215', 'CS G623']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G525']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 17 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513', 'CS G623']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212', 'CS G525']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G525']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
 
 
 Graph 18 Prof Assignments:
 PROF-1
-['CS F111']
+['CS F301', 'CS G513']
 
 
 PROF-2
-['CS F303', 'CS F211']
+['CS F222', 'CS F215', 'CS G524']
 
 
 PROF-3
-['CS F363', 'CS G526', 'CS G513']
+['CS F213', 'CS F301']
 
 
 PROF-4
-['CS F303', 'CS G524']
+['CS F351', 'CS G525']
 
 
 PROF-5
-['CS F241', 'CS G623']
+['CS F222', 'CS G623']
 
 
 PROF-6
-['CS F212']
+['CS F214', 'CS G513']
 
 
 PROF-7
-['CS F364', 'CS G525']
+['CS F342', 'CS G525']
 
 
 PROF-8
-['CS F241', 'CS G526']
+['CS F372', 'CS G623', 'CS G526']
 
 
 PROF-9
-['CS F364']
+['CS F215']
 
 
 PROF-10
-['CS F111']
+['CS F213']
 
 
 PROF-11
-['CS F211', 'CS G524']
+['CS G524', 'CS F342']
 
 
 PROF-12
-['CS F212', 'CS G525']
+['CS F372', 'CS G526']
 
 
 PROF-13
-['CS F363', 'CS G513']
+['CS F214']
 
 
 PROF-14
-['CS F111', 'CS G623']
+['CS F351']
+
+
+Graph 19 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G623', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G623']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 20 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G623']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G623', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 21 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G623']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 22 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G623', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G623']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 23 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G623']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G623']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 24 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G623']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 25 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G623']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G623', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 26 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G623']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G623']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 27 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 28 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 29 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 30 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 31 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 32 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 33 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 34 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 35 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 36 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 37 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215', 'CS G525']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 38 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G525']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342']
+
+
+PROF-8
+['CS F372', 'CS G526']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G525', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 39 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 40 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
+
+
+Graph 41 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 42 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 43 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
+
+
+Graph 44 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 45 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
+
+
+Graph 46 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
+
+
+Graph 47 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
+
+
+Graph 48 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372', 'CS G526']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 49 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623', 'CS G526']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351']
+
+
+Graph 50 Prof Assignments:
+PROF-1
+['CS F301', 'CS G513', 'CS G526']
+
+
+PROF-2
+['CS F222', 'CS F215', 'CS G524']
+
+
+PROF-3
+['CS F213', 'CS F301']
+
+
+PROF-4
+['CS F351', 'CS G525']
+
+
+PROF-5
+['CS F222', 'CS G623']
+
+
+PROF-6
+['CS F214', 'CS G513']
+
+
+PROF-7
+['CS F342', 'CS G525']
+
+
+PROF-8
+['CS F372']
+
+
+PROF-9
+['CS F215']
+
+
+PROF-10
+['CS F213']
+
+
+PROF-11
+['CS G524', 'CS F342']
+
+
+PROF-12
+['CS F372']
+
+
+PROF-13
+['CS F214', 'CS G623']
+
+
+PROF-14
+['CS F351', 'CS G526']
 
 
