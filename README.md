@@ -1,3 +1,3 @@
 # course_allotment_system
-video explanation of the code is given below:
-https://clipchamp.com/watch/GXO9KDzMaB8
+Project report:
+https://drive.google.com/file/d/1J_PLrJKa3V7XfH_muh4boc9CrKrFIW78/view
